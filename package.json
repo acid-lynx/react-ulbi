@@ -1,0 +1,65 @@
+{
+  "name": "webpack-react-ts",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack serve --config webpack.config.ts --env envType=dev",
+    "build": "webpack --config webpack.config.ts --env envType=prod",
+    "format:write": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acid-lynx/webpack-react-ts.git"
+  },
+  "keywords": [],
+  "author": "lynx",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/acid-lynx/webpack-react-ts/issues"
+  },
+  "homepage": "https://github.com/acid-lynx/webpack-react-ts#readme",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
+    "@eslint/js": "^9.36.0",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.6.1",
+    "@types/dotenv-webpack": "^7.0.8",
+    "@types/node": "^17.0.45",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@types/webpack": "^5.28.5",
+    "@types/webpack-dev-server": "^4.7.2",
+    "@typescript-eslint/eslint-plugin": "^8.44.0",
+    "@typescript-eslint/parser": "^8.44.0",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "dotenv": "^17.2.2",
+    "dotenv-webpack": "^8.1.1",
+    "eslint": "^9.36.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "html-webpack-plugin": "^5.6.4",
+    "prettier": "^3.6.2",
+    "react-refresh": "^0.17.0",
+    "sass": "^1.93.0",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^4.15.2"
+  }
+}
