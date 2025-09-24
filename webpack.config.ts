@@ -26,9 +26,9 @@ export default (env: EnvVariables) => {
     },
     plugins: buildPlugins(options),
     module: {
-      rules: buildLoaders()
+      rules: buildLoaders(options)
     },
-    resolve: buildResolvers(options),
+    resolve: buildResolvers(),
     devtool: options.isDev ? 'inline-source-map' : undefined,
     devServer: {
       port: 3000,

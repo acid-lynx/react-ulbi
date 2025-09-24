@@ -15,5 +15,16 @@
     "compilerOptions": {
       "module": "CommonJS"
     }
-  }
+  },
+  "include": [
+    "src/**/*",
+    "webpack/**/*",
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "**/*.test.ts",
+    "**/*.spec.ts",      // Spec files
+    "eslint.config.js"
+  ]
 }
